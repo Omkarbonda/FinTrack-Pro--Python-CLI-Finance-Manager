@@ -1,5 +1,27 @@
 # FinTrack Pro - CLI Finance Manager
 
+## Project Structure
+```
+FinTrack-Pro/
+│
+├── app/
+│   ├── __init__.py
+│   ├── database.py
+│   ├── models.py
+│   ├── expense.py
+│   ├── budget.py
+│   ├── reports.py
+│   ├── subscriptions.py
+│   └── search.py
+│
+├── fintrack.py
+├── requirements.txt
+├── .gitignore
+├── README.md
+└── fintrack.db
+```
+
+
 ## Introduction
 FinTrack Pro is a command-line based personal finance management system tailored for tracking daily expenses, managing subscriptions, and monitoring monthly budgets. Built with Python and SQLAlchemy, it offers a robust solution for personal finance tracking with a focus on ease of use and data persistence.
 
